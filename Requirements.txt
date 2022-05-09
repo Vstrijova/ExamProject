@@ -1,0 +1,4 @@
+SpeechRecognition
+click<=8.0.4
+bokeh
+streamlit_bokeh_events
