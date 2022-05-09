@@ -1,3 +1,6 @@
+import speech_recognition as sr
+import streamlit as st
+import requests   
 r = sr.Recognizer()
 audio_file = st.file_uploader("Upload your audio file here")
 if audio_file is not None: 
