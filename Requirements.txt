@@ -1,6 +1,5 @@
 SpeechRecognition
 click<=8.0.4
+
 bokeh
 streamlit_bokeh_events
-
-googletrans==4.0.0-rc1
