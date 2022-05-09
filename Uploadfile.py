@@ -4,7 +4,7 @@ import requests
 r = sr.Recognizer()
 audio_file = st.file_uploader("Upload your audio file here")
 if audio_file is not None: 
-    st.audio(audio_file, format="audio/wav")
+    st.audio(audio_file, format="audio")
     with sr.AudioFile(audio_file) as source:
         audio = r.record(source)  
     recognised_text= r.recognize_google(audio)
