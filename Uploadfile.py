@@ -2,9 +2,6 @@ import speech_recognition as sr
 import streamlit as st
 import requests   
 
-
-st.write(st.secrets["my_token"])
-
 AUDIO_FILE=st.file_uploader("upload your audio file")
 if AUDIO_FILE is not None:
   st.audio(AUDIO_FILE, format="audio/wav")
